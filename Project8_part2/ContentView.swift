@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    //Project8 part2　やっていきやしょう(๑>◡<๑)
-    //missions.jsonファイルを扱えるファイルをつくていきます
+    //Project8 part2から続きます。part3　やっていきやしょう(๑>◡<๑)
+    //NavigationLinkのページを作っていきます
     
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
