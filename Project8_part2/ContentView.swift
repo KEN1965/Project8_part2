@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     //Project8 part2から続きます。part3　やっていきやしょう(๑>◡<๑)
-    //NavigationLinkのページを作っていきます
+    //搭乗員のページを作っていきます
     
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
     let missions: [Mission] = Bundle.main.decode("missions.json")
